@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node",
+        "config": {
+          "nodeVersion": "14.x", 
+          "npmArgs": "--legacy-peer-deps"
+        }
+      }
+    ]
+  }
+  
